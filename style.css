@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    background-color: whitesmoke;
+    align-content: end;
+    position: fixed;
+}
+
+.naviagtion{
+    margin-top: 1px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 1150px rgba(48, 230, 178, 0.753);
+    border: 2px solid black;
+    border-radius: 50px;
+    
+
+}
+
+#ram{
+    margin-right:10px;
+    padding-top: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 15px red;
+    border-radius: 10px;
+}
+
+#image{
+    width: 30px;
+    height: 30px;
+    margin-right:500px;
+    box-shadow: 1px 1px 5px red;
+    border-radius: 15px;
+
+}
+#home{
+    margin-right:50px;
+    
+}
+
+#about{
+    margin-right:50px;
+}
+
+#skills{
+    margin-right:50px;
+}
+
+#education{
+    margin-right:50px;
+}
+
+#work{
+    margin-right:50px;
+}
+
+#experience{
+    margin-right:50px;
+}
+#contact{
+    margin-right:100px;
+}
+#text{
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 90px;
+    text-shadow: 5px 1px 2px black;
+    color: deeppink;
+}
+
+#web{
+    font-size: 50px;
+
+}
+
+#aboutt{
+    margin-left: 150px;
+    padding-top: 40px;
+    padding: 40px;
+
+}
+
+#me{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: aqua;
+    border-radius: 90px;
+    text-shadow: 1px 1px 2px rgba(255, 22, 99, 0.877);
+    box-shadow: 2px 2px 1px rgb(112, 104, 186);
+    
+}
+
+#link{
+    margin-left: 25px;
+}
+
+#linkdin1{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+    
+}
+
+#background{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: end;
+    margin-left: 640px;
+}
+
+a:link{
+    text-decoration:solid;
+}
+
+a:hover{
+    color:rgb(255, 0, 149);
+    
+}
+
+.aboutme{
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deeppink;
+    text-shadow: 5px 1px 2px black;
+}
+
+#portfolio{
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 270px;
+    margin-right: 1px;
+    border-radius: 5000px;
+    box-shadow: 0px 5px 150px rgba(0, 0, 0, 0.825);
+    padding: 1px;
+    background-color: rgb(156, 209, 255);
+    
+}
+
+/* #about2{
+    margin-bottom: 200px;
+} */
+
+#description{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    padding-left: 5px;
+
+}
+
+#myskills{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deeppink;
+    text-shadow: 5px 1px 2px black;
+}
+
+#webdevskills{
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 100px;
+    border: 2px solid black;
+    border-radius: 400px;
+    box-shadow: 2px 2px 100px rgba(192, 255, 4, 0.904);
+}
+
+#htmlcssjs{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+}
+
+#nodejs{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+}
+
+#react{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+}
+
+#camera{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+}
+
+#creative{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+}
+
+#graphics{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 100px #ab9cff;
+}
+
+#myskillsdescription{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#education3{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 100px;
+    color: deeppink;
+    text-shadow: 5px 1px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#educationdescription{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+#educationpic{
+    margin: 50px;
+    margin-top: 200px;
+    margin-right: 70px;
+    border-radius: 70px;
+    border:2px solid rgb(78, 179, 237);
+    padding: 1px;
+    box-shadow: 2px 2px 50px black;
+}
+
+#experience3{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 100px;
+    color: deeppink;
+    text-shadow: 5px 1px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#experiencedescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+#projects{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+#experiencepic{
+    margin: 50px;
+    margin-top: 200px;
+    margin-right: 70px;
+    border-radius: 70px;
+    border:2px solid rgb(78, 179, 237);
+    padding: 1px;
+    box-shadow: 2px 2px 50px black;
+}
